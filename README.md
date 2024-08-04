@@ -1,6 +1,9 @@
 # Golang PostgreSQL
+[![My Skills](https://skillicons.dev/icons?i=golang,postgres)](https://skillicons.dev)
+
 Este repositório didático explora as possibilidades existentes em uma aplicação Golang integrada a um banco de dados relacional PostgreSQL, intermediada pelo driver ou lib **database/sql** do próprio Go.
 O pacote uma interface genérica para trabalhar com bancos de dados SQL. Ele permite que você execute operações de banco de dados de forma consistente, independentemente do banco de dados específico que você está usando (como PostgreSQL, MySQL, SQLite, etc.). A biblioteca abstrai os detalhes específicos do banco de dados e oferece um conjunto de funções e tipos para executar consultas, gerenciar transações e manipular conexões.
+
 
 <details>
     <summary>Criação de Client (Conexão).</summary>
@@ -391,4 +394,3 @@ func CreateUser(user entities.User) error {
 Neste repositórios eu exercitei algumas ideias e maneiras de utilizar todos estes recursos, fique a vontade para explorar.
 
 Pontos que ainda podem ser aprofundados seriam os tipos de Lock e Isolamentos das transações, pretendo abordar em breve.
-
